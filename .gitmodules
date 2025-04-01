@@ -1,0 +1,6 @@
+[submodule "btbackend"]
+	path = btbackend
+	url = https://github.com/aryan083/btbackend
+[submodule "booktube"]
+	path = booktube
+	url = https://github.com/aryan083/booktube
