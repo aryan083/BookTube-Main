@@ -17,6 +17,6 @@ frontend:
         deploy:
             - npm install
     subdomain: btbackend
-name: btbackend
+name: bookTubing
 region: us-east-1
 yamlVersion: 2
