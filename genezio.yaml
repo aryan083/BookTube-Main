@@ -1,0 +1,22 @@
+backend:
+    functions:
+        - entry: run.py
+          handler: handler
+          name: function-flask
+          path: .
+          type: httpServer
+    language:
+        name: js
+    path: .btbackend
+frontend:
+    path: ./booktube
+    publish: dist
+    scripts:
+        build:
+            - npm run build
+        deploy:
+            - npm install
+    subdomain: btbackend
+name: btbackend
+region: us-east-1
+yamlVersion: 2
